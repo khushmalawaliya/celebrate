@@ -7,6 +7,4 @@ var animation = bodymovin.loadAnimation({
     path: '17657-birthday-card.json'
     
   })
-  function play(){
-    document.getElementById("anim-home").innerHTML=this.animation;
-  }
+  
