@@ -10,3 +10,4 @@ var animation = bodymovin.loadAnimation({
   function play(){
     document.getElementById("anim-home").innerHTML=this.animation;
   }
+  AOS.init();
